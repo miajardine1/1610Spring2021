@@ -378,8 +378,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531900096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0000000048861, z: 0}
-  m_LocalScale: {x: 0.979506, y: 0.979506, z: 0.979506}
+  m_LocalPosition: {x: 0.17, y: -1.484, z: 0}
+  m_LocalScale: {x: 1.064325, y: 1.7216754, z: 0.979506}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -645,7 +645,25 @@ MonoBehaviour:
       bevelSize: 0
       spriteIndex: 0
       corner: 1
-    - position: {x: 2, y: -2, z: 0}
+    - position: {x: 2, y: -5.8690033, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      bevelCutoff: 0
+      bevelSize: 0
+      spriteIndex: 0
+      corner: 1
+    - position: {x: 1.4677666, y: 0.21085913, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      bevelCutoff: 0
+      bevelSize: 0
+      spriteIndex: 0
+      corner: 1
+    - position: {x: -1.1054562, y: -0.23131257, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -714,8 +732,8 @@ SpriteShapeRenderer:
   m_ShapeTexture: {fileID: 0}
   m_Sprites: []
   m_LocalAABB:
-    m_Center: {x: 0, y: -0.00000023841858, z: 0}
-    m_Extent: {x: 2.0000002, y: 2, z: 0}
+    m_Center: {x: 0, y: -1.9345016, z: 0}
+    m_Extent: {x: 2.0000002, y: 3.9345016, z: 0}
 --- !u!4 &1531802056
 Transform:
   m_ObjectHideFlags: 0
@@ -724,8 +742,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531802053}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.358, y: -3.759, z: 0}
-  m_LocalScale: {x: 6.4606113, y: -0.979346, z: 1}
+  m_LocalPosition: {x: -0.358, y: -4.183, z: 0}
+  m_LocalScale: {x: 6.4606113, y: -0.76729757, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

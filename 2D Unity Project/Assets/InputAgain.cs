@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UserInputAgain : MonoBehaviour
+public class InputAgain : MonoBehaviour
 {
     public Rigidbody2D ballRigidbody2D;
     public Vector2 direction;

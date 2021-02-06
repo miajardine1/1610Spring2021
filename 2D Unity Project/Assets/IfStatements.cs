@@ -12,7 +12,7 @@ public class IfStatements : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-            TemperatureTest();
+            TempertureTest();
 
         coffeeTemperature -= Time.deltaTime * 5f;
     }
@@ -24,7 +24,7 @@ public class IfStatements : MonoBehaviour
         if (coffeeTemperature > hotLimitTemperature)
         {
             //... do this.
-            print("Coffee is too hot.")
+            print("Coffee is too hot.");
 
         }
         // If it isn't, but the coffee temperature is less than the coldest drinking temperature, then...

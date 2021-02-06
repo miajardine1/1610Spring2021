@@ -17,7 +17,7 @@ public class InputAgain : MonoBehaviour
         direction.x = Input.GetAxis("Horizontal") * speed;
         ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
 
-        if (Input.GetButtonDown("Jump")
+        if (Input.GetButtonDown("Jump"))
         {
             ballRigidbody2D.AddForce(ydirection, ForceMode2D.Force);
         }

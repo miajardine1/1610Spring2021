@@ -9,7 +9,8 @@ public class ScopeAndAccessModifers : MonoBehaviour
 
     private int beta = 0;
     private int gamma = 5;
-
+    private int pens = 0;
+    private int crayons = 5;
 
     private AnotherClass myOtherClass;
 
@@ -24,6 +25,6 @@ public class ScopeAndAccessModifers : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Alpha is set to: " + alpha)
+        Debug.Log("Alpha is set to: " + alpha);
     }
 }

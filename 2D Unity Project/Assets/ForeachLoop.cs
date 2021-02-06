@@ -6,7 +6,7 @@ public class ForReachLoop : MonoBehaviour
 {
     void Start ()
     {
-        string[] strings = new string[3];\
+        string[] strings = new string[3];
 
         strings[0] = "First string";
         strings[1] = "Second string";

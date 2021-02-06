@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +7,7 @@ public class UserInput : MonoBehaviour
 {
     public Rigidbody2D ballRigidbody2D;
     public Vector2 direction;
-    public Vector 2 yDirection;
+    public Vector2 yDirection;
 
 
     void Update()
@@ -25,4 +26,10 @@ public class UserInput : MonoBehaviour
         {
             ballRigidbody2D.AddForce(yDirection, ForceMode2D.Force);
         }
+}
+
+    private static bool GetKey(KeyCode rightArrow)
+    {
+        throw new NotImplementedException();
+    }
 }

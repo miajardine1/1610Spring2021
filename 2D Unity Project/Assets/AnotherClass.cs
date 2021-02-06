@@ -16,13 +16,13 @@ public class AnotherClass : MonoBehaviour
     {
         int answer;
         answer = a + b;
-        Debug.Log("Fruit total: " + answer)
+        Debug.Log("Fruit total: " + answer);
     }
 
     private void OfficeSort(int a, int b)
     {
         int answer;
         answer = a + b;
-        Debug.Log("Office Supplies total: " + answer)
+        Debug.Log("Office Supplies total: " + answer);
     }
 }

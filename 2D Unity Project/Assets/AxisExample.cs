@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AxisExample : MonoBehaviour
 {
     public float range;
-    public GUITexture textOutput;
+    public UnityEngine.UI.Image textOutput;
 
 
     void Update ()

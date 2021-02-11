@@ -600,7 +600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   jumpForce: 7
-  rigidbodyObj: {fileID: 0}
+  rigidbodyObj: {fileID: 1462758522}
 --- !u!1 &1531802053
 GameObject:
   m_ObjectHideFlags: 0
